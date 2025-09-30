@@ -70,37 +70,3 @@
 .search-input select {
     width: fit-content;
 }
-
-/* Cards */
-.card {
-    /* border: 2px solid rgb(102, 102, 102); */
-    border-radius: 5%;
-    width: 250px;
-    height: 400px;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.18);
-}
-
-.card img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 5% 5% 0 0;
-}
-
-.card-content {
-    padding: 0 12px;
-}
-
-.card-content h1 {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin: 0;
-}
-
-.card-content p {
-    color: rgb(85, 85, 85);
-    font-size: 0.9rem;
-    margin: 0;
-}

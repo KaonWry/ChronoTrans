@@ -8,7 +8,11 @@ body {
 
 h1,
 h2,
-p,button,ul,li,a {
+p,
+button,
+ul,
+li,
+a {
     all: unset;
     display: revert;
 }
@@ -59,6 +63,8 @@ p,button,ul,li,a {
     background-color: rgb(0, 0, 0, 0);
     color: rgb(0, 0, 0);
     text-align: center;
+    user-select: none;
+
 }
 
 .btn-search {
@@ -131,6 +137,7 @@ p,button,ul,li,a {
     height: 8rem;
     vertical-align: middle;
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .btn-nav {
