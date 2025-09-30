@@ -1,0 +1,106 @@
+/* Header */
+.hero .navbar {
+    box-shadow: none;
+}
+
+.hero .logo {
+    filter: brightness(0) invert(1);
+}
+
+.hero .btn-nav {
+    color: rgb(255, 255, 255);
+}
+
+.hero .btn-login {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.hero {
+    width: 100vw;
+    min-height: 600px;
+    background-image: url("../img/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 3rem;
+    /* font-weight: 700; */
+}
+
+.hero .section {
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+
+.hero p {
+    font-size: 1rem;
+}
+
+.search-input {
+    gap: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.search-input input,
+.search-input select {
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 200px;
+}
+
+.search-input select {
+    width: fit-content;
+}
+
+/* Cards */
+.card {
+    /* border: 2px solid rgb(102, 102, 102); */
+    border-radius: 5%;
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.18);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5% 5% 0 0;
+}
+
+.card-content {
+    padding: 0 12px;
+}
+
+.card-content h1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card-content p {
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+    margin: 0;
+}

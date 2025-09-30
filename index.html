@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chronotrans - Home</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <!-- <link href="style.css" rel="stylesheet"> -->
+</head>
+
+<body>
+  <div class="hero">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="left">
+          <a href="index.html">
+            <img src="img/icons/logo.png" alt="Chronotrans Logo" class="logo" />
+          </a>
+        </div>
+        <div class="right">
+          <a href="help.html"><button class="btn btn-nav">Help</button></a>
+          <button class="btn btn-nav">IDR | EN</button>
+          <div>
+            <button class="btn btn-login">Login</button>
+            <button class="btn btn-register">Register</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="content">
+      <h1>When do you want to go?</h1>
+
+      <!-- Search -->
+      <div style="display: flex; flex-direction: row">
+        <!-- Where From -->
+        <div style="flex-grow: 1">
+          <div class="section">
+            <p>Where from:</p>
+            <div class="search-input">
+              <input type="text" placeholder="Where?" />
+              <div>
+                <input type="text" pattern="\d+" placeholder="When?" />
+                <select>
+                  <option value="BCE">BCE</option>
+                  <option value="CE">CE</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Where To -->
+        <div style="flex-grow: 1">
+          <div class="section">
+            <p>Where to:</p>
+            <div class="search-input">
+              <input type="text" placeholder="Where?" />
+              <div>
+                <input type="text" pattern="\d+" placeholder="When?" />
+                <select>
+                  <option value="BCE">BCE</option>
+                  <option value="CE">CE</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Travel Info -->
+        <div style="flex-grow: 1">
+          <div class="section">
+            <p>Number of Travelers:</p>
+            <div class="search-input">
+              <input type="number" min="1" value="1" />
+            </div>
+            <p style="margin-top: 30px;">
+              Return Travel: <input type="checkbox" />
+            </p>
+          </div>
+        </div>
+      </div>
+      <button style="margin: 30px auto" class="btn btn-search">
+        Explore
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="body-content">
+    <!-- Trending Destinations -->
+    <div>
+      <h1>Trending Destinations</h1>
+      <ul>
+        <li>
+          <a href="">
+            <div class="card">
+              <img src="img/cards/destination/dinosaurs.jpg" alt="Dinosaurs" />
+              <div class="card-content">
+                <h1>Mesozoic Era</h1>
+                <p>
+                  Walk with dinosaurs in their prime! Just don't ask for
+                  refunds if a T-Rex eats your tour guide.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="card">
+              <img src="img/cards/destination/egypt.jpeg" alt="Egypt" />
+              <div class="card-content">
+                <h1>Ancient Egypt</h1>
+                <p>
+                  Marvel at pyramids mid-construction, bargain with pharaohs,
+                  and try not to anger the local sun god.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="card">
+              <img src="img/cards/destination/medieval.jpg" alt="Medieval" />
+              <div class="card-content">
+                <h1>Medieval Europe</h1>
+                <p>
+                  Step back in time to the age of knights and castles, minus
+                  the witches and dragons.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="card">
+              <img src="img/cards/destination/wild west.jpg" alt="Wild West" />
+              <div class="card-content">
+                <h1>Wild West</h1>
+                <p>
+                  Experience America before air-conditioning and sensible law
+                  enforcement.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="btn-see-more">
+        <a href=""><button class="btn">See More ></button></a>
+      </div>
+    </div>
+
+    <!-- Witness History -->
+    <div>
+      <h1>Witness History</h1>
+      <ul>
+        <li>
+          <a href="">
+            <div class="card">
+              <img src="img/cards/events/moon.jpg" alt="picture" />
+              <div class="card-content">
+                <h1>Moon Landing (1969)</h1>
+                <p>
+                  Watch humanity take one giant leap on the lunar surface, or
+                  a film studio depending on who you ask.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="event.html">
+            <div class="card">
+              <img src="img/cards/events/liverpool.jpg" alt="Miracle of Istanbul" title="You'll never walk alone" />
+              <div class="card-content">
+                <h1>Miracle of Istanbul (2005)</h1>
+                <p>
+                  From 3-0 down at halftime to Champions of Europe. Witness
+                  the greatest comeback in the history of The Beautiful Game.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="card">
+              <img src="img/cards/events/pompeii.jpg" alt="Mount Vesuvius Eruption" />
+              <div class="card-content">
+                <h1>Destruction of Pompeii (79)</h1>
+                <p>
+                  Volcano views to die for. Spoiler: everyone did. Souvenirs
+                  may include ash and lava rocks.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <div class="card">
+              <img src="img/cards/events/wright flyer.jpg" alt="Wright Flyer" />
+              <div class="card-content">
+                <h1>Launch of Wright Flyer (1903)</h1>
+                <p>
+                  Relive the entire 12 seconds of Wright brothers proving that
+                  humans can fly.
+                </p>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="btn-see-more">
+        <a><button class="btn">See More ></button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 
+    Example for Destination Cards
+    <li>
+      <a href="">
+        <div class="card">
+          <img src="pic.jpg" alt="picture" />
+          <div class="card-content">
+            <h1>Title</h1>
+            <p>Subtitle</p>
+          </div>
+        </div>
+      </a>
+    </li> 
+  -->
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <!-- Logo & Tagline -->
+      <div class="brand">
+        <img src="img/icons/logo.png" alt="Chronotrans Logo" class="logo" />
+        <p>
+          Booking journeys through prehistory, history, and futures yet to
+          come.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="links">
+        <h1>Explore</h1>
+        <ul>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="contact">
+        <h1>Contact</h1>
+        <a href="https://www.britannica.com/story/ten-days-that-vanished-the-switch-to-the-gregorian-calendar"
+          style="color: inherit; text-decoration: inherit" target="_blank" rel="noopener">
+          <p>📍 HQ: 10 October 1582, Rome</p>
+        </a>
+        <p>📞 +00-123-TIME</p>
+        <p>✉️ support@chronotrans.com</p>
+      </div>
+
+      <!-- Social -->
+      <div class="social">
+        <h1>Follow Us</h1>
+        <div class="icon">
+          <a href="#">
+            <img src="img/icons/facebook.png" alt="Facebook" />
+          </a>
+          <a href="#">
+            <img src="img/icons/instagram.png" alt="Instagram" />
+          </a>
+          <a href="#">
+            <img src="img/icons/twitter.png" alt="I'm not calling it X Elon, piss off" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        © 2025 ChronoTrans. Not responsible for temporal paradoxes, butterfly
+        effects, or duplicate versions of yourself.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
